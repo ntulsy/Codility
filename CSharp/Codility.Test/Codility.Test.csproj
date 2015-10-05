@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="T1-PermMissingElem.cs" />
     <Compile Include="T1-TapeEquilibrium.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
