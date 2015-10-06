@@ -10,22 +10,22 @@ namespace TapeEquilibrium
     {
         public int solution(int[] A)
         {
-            int[] SumLeft = new int[A.Length];
-            int[] SumRight = new int[A.Length];
-            SumLeft[0] = 0;
+            int[] sumLeft = new int[A.Length];
+            int[] sumRight = new int[A.Length];
+            sumLeft[0] = 0;
             for (int i = 1; i < A.Length; ++i)
             {
-                SumLeft[i] = SumLeft[i - 1] + A[i - 1];
+                sumLeft[i] = sumLeft[i - 1] + A[i - 1];
             }
-            SumRight[A.Length - 1] = A[A.Length - 1];
+            sumRight[A.Length - 1] = A[A.Length - 1];
             for (int i = A.Length - 2; i >= 0; --i)
             {
-                SumRight[i] = SumRight[i + 1] + A[i];
+                sumRight[i] = sumRight[i + 1] + A[i];
             }
             int result = Int32.MaxValue;
             for (int i = 1; i < A.Length; ++i)
             {
-                int diff = Math.Abs(SumLeft[i] - SumRight[i]);
+                int diff = Math.Abs(sumLeft[i] - sumRight[i]);
                 if (diff < result)
                     result = diff;
             }

@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2-MissingInteger.cs" />
+    <Compile Include="2-PermCheck.cs" />
+    <Compile Include="2-FrogRiverOne.cs" />
+    <Compile Include="1-FrogJmp.cs" />
     <Compile Include="1-PermMissingElem.cs" />
     <Compile Include="1-TapeEquilibrium.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
