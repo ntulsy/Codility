@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="T1-FrogJmp.cs" />
     <Compile Include="T2-MissingInteger.cs" />
+    <Compile Include="T2-MaxCounters.cs" />
     <Compile Include="T2-PermCheck.cs" />
     <Compile Include="T2-FrogRiverOne.cs" />
     <Compile Include="T1-PermMissingElem.cs" />
