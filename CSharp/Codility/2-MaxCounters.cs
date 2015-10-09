@@ -12,24 +12,32 @@ namespace MaxCounters
         {
             int[] counters = new int[N];
             int currentMaxCounter = 0;
+            int lastSyncCounterValue = 0;
             foreach (var a in A)
             {
                 if (a == N + 1)
                 {
-                    currentMaxCounter += counters.Max();
-                    for (int i = 0; i < counters.Length; ++i)
-                    {
-                        counters[i] = 0;
-                    }
+                    lastSyncCounterValue = currentMaxCounter;
                 }
                 else
                 {
+                    if (counters[a - 1] < lastSyncCounterValue)
+                    {
+                        counters[a - 1] = lastSyncCounterValue;
+                    }
                     ++counters[a - 1];
+                    if (counters[a - 1] > currentMaxCounter)
+                    {
+                        currentMaxCounter = counters[a - 1];
+                    }
                 }
             }
             for (int i = 0; i < counters.Length; ++i)
             {
-                counters[i] += currentMaxCounter;
+                if (counters[i] < lastSyncCounterValue)
+                {
+                    counters[i] = lastSyncCounterValue;
+                }
             }
             return counters;
         }
