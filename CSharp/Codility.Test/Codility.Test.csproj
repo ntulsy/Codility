@@ -53,6 +53,7 @@
     <Compile Include="T1-FrogJmp.cs" />
     <Compile Include="T2-MissingInteger.cs" />
     <Compile Include="T2-MaxCounters.cs" />
+    <Compile Include="T3-MinAvgTwoSlice.cs" />
     <Compile Include="T3-PassingCars.cs" />
     <Compile Include="T3-CountDiv.cs" />
     <Compile Include="T2-PermCheck.cs" />

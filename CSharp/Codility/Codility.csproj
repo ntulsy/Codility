@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="2-MissingInteger.cs" />
     <Compile Include="2-MaxCounters.cs" />
+    <Compile Include="3-MinAvgTwoSlice.cs" />
     <Compile Include="3-PassingCars.cs" />
     <Compile Include="3-CountDiv.cs" />
     <Compile Include="2-PermCheck.cs" />

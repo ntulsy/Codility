@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MaxCounters
 {
+    // Solved with external assistance
     public class Solution
     {
         public int[] solution(int N, int[] A)
