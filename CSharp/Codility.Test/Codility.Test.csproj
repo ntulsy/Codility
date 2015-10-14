@@ -55,6 +55,8 @@
     <Compile Include="T2-MaxCounters.cs" />
     <Compile Include="T3-MinAvgTwoSlice.cs" />
     <Compile Include="T3-GenomicRangeQuery.cs" />
+    <Compile Include="T4-Distinct.cs" />
+    <Compile Include="T4-MaxProductOfThree.cs" />
     <Compile Include="T3-PassingCars.cs" />
     <Compile Include="T3-CountDiv.cs" />
     <Compile Include="T2-PermCheck.cs" />
