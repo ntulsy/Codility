@@ -47,6 +47,7 @@
     <Compile Include="3-MinAvgTwoSlice.cs" />
     <Compile Include="3-GenomicRangeQuery.cs" />
     <Compile Include="4-Distinct.cs" />
+    <Compile Include="5-Brackets.cs" />
     <Compile Include="5-Nesting.cs" />
     <Compile Include="4-Triangle.cs" />
     <Compile Include="4-MaxProductOfThree.cs" />
