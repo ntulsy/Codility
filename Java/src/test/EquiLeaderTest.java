@@ -1,5 +1,6 @@
-package main;
+package test;
 
+import main.EquiLeader;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

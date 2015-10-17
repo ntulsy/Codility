@@ -1,5 +1,7 @@
 package main;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 /**
@@ -34,6 +36,23 @@ public class Brackets {
                 return 0;
         }
 
+        return pending.empty()? 1:0;
+    }
+
+    public int solution2(String s){
+        Stack pending = new Stack();
+        Map<Character,Character> mapping = new HashMap<Character, Character>();
+        mapping.put('}','{');
+        mapping.put(']','[');
+        mapping.put(')','(');
+        for(char c: s.toCharArray()){
+            if(c=='{' || c=='[' || c=='(')
+                pending.push(c);
+            else if (!pending.isEmpty() && pending.peek() == mapping.get(c))
+                pending.pop();
+            else
+                return 0;
+        }
         return pending.empty()? 1:0;
     }
 }

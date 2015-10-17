@@ -9,16 +9,24 @@ import java.util.Comparator;
 public class NumberOfDiscIntersections {
     public int solution(int[] A) {
         // write your code in Java SE 8
+//        ArrayList<Event> events = new ArrayList<>();
+//        for(int i = 0; i<A.length; i++){
+//            events.add(new Event(((long)i-A[i]),true));
+//            events.add(new Event(((long)i+A[i]),false));
+//        }
+
+//        Comparator<Event> c = Comparator.comparing(event -> event.value);
+//        c = c.thenComparing(Comparator.comparing(event -> !event.is_start));
+//        events.sort(c);
+
+
         Event[] events = new Event[A.length*2];
         for (int i = 0; i<A.length;i++){
-            events[i*2] = new Event();
-            events[i*2].setValue(i-A[i]);
-            events[i*2].setIs_start(true);
-            events[i*2+1] = new Event();
-            events[i*2+1].setValue(i+(long)A[i]);
-            events[i*2+1].setIs_start(false);
+            events[i*2] = new Event((i-(long)A[i]),true);
+            events[i*2+1] = new Event((i+(long)A[i]),false);
         }
         Arrays.sort(events, new EventComparator());
+
         int intersections=0, active_circle = 0;
         for(Event e:events){
             if(e.is_start){
@@ -34,6 +42,15 @@ public class NumberOfDiscIntersections {
 
     }
 
+
+    class Event {
+        private long value;
+        private boolean is_start;
+        Event(long value, boolean is_start){
+            this.value=value;
+            this.is_start = is_start;
+        }
+    }
     public class EventComparator implements Comparator<Event> {
         @Override
         public int compare(Event e1, Event e2) {
@@ -45,23 +62,5 @@ public class NumberOfDiscIntersections {
             }
         }
     }
-
-    class Event {
-        private long value;
-        private boolean is_start;
-        public void setValue(long value){
-            this.value=value;
-        }
-        public void setIs_start(boolean is_start){
-            this.is_start = is_start;
-        }
-//        public long getValue(){
-//            return this.value;
-//        }
-//        public boolean getIs_start(){
-//            return this.is_start;
-//        }
-    }
-
 
 }
