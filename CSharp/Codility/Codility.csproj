@@ -50,6 +50,7 @@
     <Compile Include="4-NumberOfDiscIntersections.cs" />
     <Compile Include="5-Brackets.cs" />
     <Compile Include="5-Fish.cs" />
+    <Compile Include="5-StoneWall.cs" />
     <Compile Include="5-Nesting.cs" />
     <Compile Include="4-Triangle.cs" />
     <Compile Include="4-MaxProductOfThree.cs" />

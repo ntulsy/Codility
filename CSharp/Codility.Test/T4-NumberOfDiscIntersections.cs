@@ -20,7 +20,6 @@ namespace Codility.Test
             Assert.AreEqual(2, result);
         }
 
-
         [TestMethod]
         public void TestMethod2()
         {
