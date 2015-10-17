@@ -56,7 +56,9 @@
     <Compile Include="T3-MinAvgTwoSlice.cs" />
     <Compile Include="T3-GenomicRangeQuery.cs" />
     <Compile Include="T4-Distinct.cs" />
+    <Compile Include="T4-NumberOfDiscIntersections.cs" />
     <Compile Include="T5-Brackets.cs" />
+    <Compile Include="T5-Fish.cs" />
     <Compile Include="T5-Nesting.cs" />
     <Compile Include="T4-Triangle.cs" />
     <Compile Include="T4-MaxProductOfThree.cs" />
