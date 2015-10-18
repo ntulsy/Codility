@@ -77,4 +77,28 @@ public class Q2Test {
         assertEquals("ACACACACACAC", result);
     }
 
+    @Test
+    public void test11() throws Exception{
+        Q2 t = new Q2();
+        String A = "ABBA";
+        String result = t.solution(A);
+        assertEquals("A", result);
+    }
+
+    @Test
+    public void test12() throws Exception{
+        Q2 t = new Q2();
+        String A = "CBBC";
+        String result = t.solution(A);
+        assertEquals("C", result);
+    }
+
+
+    @Test
+    public void test13() throws Exception{
+        Q2 t = new Q2();
+        String A = "CA";
+        String result = t.solution(A);
+        assertEquals("CA", result);
+    }
 }
