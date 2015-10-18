@@ -13,10 +13,8 @@ public class Q1 {
         int r = N - 1;
         while (l < r) {
             int m = (l + r) / 2;
-            if (A[m] == X)
-                return m;
-            if (A[m] > X) {
-                r = m - 1;
+            if (A[m] >= X) {
+                r = m ;
             } else {
                 l = m + 1;
             }

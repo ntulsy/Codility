@@ -72,4 +72,36 @@ public class Q1Test {
         int res = q.solution(A, N);
         assertEquals(0, res);
     }
+    @Test
+    public void testSolution6() throws Exception {
+        int[] A = {1,2,3};
+        int N = 1;
+        Q1 q = new Q1();
+        int res = q.solution(A, N);
+        assertEquals(0, res);
+    }
+    @Test
+    public void testSolution7() throws Exception {
+        int[] A = {1,2,5};
+        int N = 0;
+        Q1 q = new Q1();
+        int res = q.solution(A, N);
+        assertEquals(-1, res);
+    }
+    @Test
+    public void testSolution8() throws Exception {
+        int[] A = {1,2,5};
+        int N = 2;
+        Q1 q = new Q1();
+        int res = q.solution(A, N);
+        assertEquals(1, res);
+    }
+    @Test
+    public void testSolution9() throws Exception {
+        int[] A = {1,2,5};
+        int N = 5;
+        Q1 q = new Q1();
+        int res = q.solution(A, N);
+        assertEquals(2, res);
+    }
 }
