@@ -3,6 +3,8 @@ package test;
 import main.Q3;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.assertEquals;
 
 public class Q3Test {
@@ -57,6 +59,15 @@ public class Q3Test {
         int[] A = {3,5};
         int result = t.solution(A);
         assertEquals(0,result);
+    }
+
+    @Test
+    public void test9() throws Exception{
+        Q3 t = new Q3();
+        int[] A = new int[100000];
+        Arrays.fill(A, 1);
+        int result = t.solution(A);
+        assertEquals(1000000000,result);
     }
 
 

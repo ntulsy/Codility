@@ -18,7 +18,10 @@ public class Q3 {
         }
         for(int b:found.values()){
             if(b>1){
-                result+= b*(b-1)/2;
+                long oneResult = (long) b * ((long)(b-1)) / 2L;
+                if (oneResult > 1000000000L)
+                    return 1000000000;
+                result += (int) oneResult;
                 if (result>= 1000000000)
                     return 1000000000;
             }
