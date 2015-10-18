@@ -10,24 +10,24 @@ public class BracketsTest {
     public void testSolution() throws Exception{
         Brackets t = new Brackets();
         int result = t.solution2("{[()()]}");
-        assertEquals(result,1);
+        assertEquals(1,result);
     }
     @Test
     public void testSolution2() throws Exception{
         Brackets t = new Brackets();
         int result = t.solution2("{[()()]");
-        assertEquals(result,0);
+        assertEquals(0,result);
     }
     @Test
     public void testSolution3() throws Exception{
         Brackets t = new Brackets();
         int result = t.solution2("([)()]");
-        assertEquals(result,0);
+        assertEquals(0,result);
     }
     @Test
     public void testSolution4() throws Exception{
         Brackets t = new Brackets();
         int result = t.solution2("");
-        assertEquals(result,1);
+        assertEquals(1,result);
     }
 }
