@@ -34,5 +34,47 @@ public class Q2Test {
         String result = t.solution(A);
         assertEquals("BB", result);
     }
+    @Test
+    public void test5() throws Exception{
+        Q2 t = new Q2();
+        String A = "ACACACACACAC";
+        String result = t.solution(A);
+        assertEquals("ACACACACACAC", result);
+    }
+    @Test
+    public void test6() throws Exception{
+        Q2 t = new Q2();
+        String A = "ACACACACACACBB";
+        String result = t.solution(A);
+        assertEquals("ACACACACACAC", result);
+    }
+    @Test
+    public void test7() throws Exception{
+        Q2 t = new Q2();
+        String A = "ACA";
+        String result = t.solution(A);
+        assertEquals("ACA", result);
+    }
+    @Test
+    public void test8() throws Exception{
+        Q2 t = new Q2();
+        String A = "BBACACACACACAC";
+        String result = t.solution(A);
+        assertEquals("ACACACACACAC", result);
+    }
+    @Test
+    public void test9() throws Exception{
+        Q2 t = new Q2();
+        String A = "ACACABBCACACAC";
+        String result = t.solution(A);
+        assertEquals("ACACACACACAC", result);
+    }
+    @Test
+    public void test10() throws Exception{
+        Q2 t = new Q2();
+        String A = "AAAAAACACCCCCCACACACAC";
+        String result = t.solution(A);
+        assertEquals("ACACACACACAC", result);
+    }
 
 }

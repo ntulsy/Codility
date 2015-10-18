@@ -27,8 +27,11 @@ public class Q2 {
                 }else {
                     if(c == 'B')
                         pending.push(c);
-                    else
-                        pending.pop();
+                    else{
+                        while (!pending.empty() && pending.peek()=='B')
+                            pending.pop();
+                        pending.push(c);
+                    }
                 }
             }
         }
