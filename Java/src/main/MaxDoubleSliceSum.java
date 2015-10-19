@@ -17,7 +17,7 @@ public class MaxDoubleSliceSum {
             y = Math.min(y, A[i]);
             max_sofar_minusY = max_sofar - y;
 
-            if (max_sofar_minusY < 0) {
+            if (max_sofar_minusY <= 0) {
                 max_sofar = A[i];
                 max_sofar_minusY = 0;
                 y = A[i];
