@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EquiLeader
 {
+    // solved with external assistance
     public class Solution
     {
         public int solution(int[] A)
@@ -27,7 +28,6 @@ namespace EquiLeader
                     ++equiLeaderCount;
             }
             return equiLeaderCount;
-
         }
 
         public int getLeader(int[] H)

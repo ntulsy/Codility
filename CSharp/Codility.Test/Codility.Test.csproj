@@ -59,6 +59,7 @@
     <Compile Include="T4-NumberOfDiscIntersections.cs" />
     <Compile Include="T5-Brackets.cs" />
     <Compile Include="T5-Fish.cs" />
+    <Compile Include="T7-MaxDoubleSliceSum.cs" />
     <Compile Include="T6-EquiLeader.cs" />
     <Compile Include="T6-Dominator.cs" />
     <Compile Include="T5-StoneWall.cs" />
