@@ -50,6 +50,7 @@
     <Compile Include="4-NumberOfDiscIntersections.cs" />
     <Compile Include="5-Brackets.cs" />
     <Compile Include="5-Fish.cs" />
+    <Compile Include="7-MaxProfit.cs" />
     <Compile Include="7-MaxDoubleSliceSum.cs" />
     <Compile Include="6-EquiLeader.cs" />
     <Compile Include="6-Dominator.cs" />
