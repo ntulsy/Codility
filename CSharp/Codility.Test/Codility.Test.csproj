@@ -59,6 +59,9 @@
     <Compile Include="T4-NumberOfDiscIntersections.cs" />
     <Compile Include="T5-Brackets.cs" />
     <Compile Include="T5-Fish.cs" />
+    <Compile Include="T8-CountFactors.cs" />
+    <Compile Include="T8-MinPerimeterRectangle.cs" />
+    <Compile Include="T7-MaxSliceSum.cs" />
     <Compile Include="T7-MaxProfit.cs" />
     <Compile Include="T7-MaxDoubleSliceSum.cs" />
     <Compile Include="T6-EquiLeader.cs" />

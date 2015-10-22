@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace MaxProfit
 {
-    // solved with external assistance
     public class Solution
     {
         public int solution(int[] A)
