@@ -51,6 +51,7 @@
     <Compile Include="5-Brackets.cs" />
     <Compile Include="5-Fish.cs" />
     <Compile Include="8-CountFactors.cs" />
+    <Compile Include="8-Flags.cs" />
     <Compile Include="8-Peaks.cs" />
     <Compile Include="8-MinPerimeterRectangle.cs" />
     <Compile Include="7-MaxSliceSum.cs" />

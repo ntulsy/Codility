@@ -60,6 +60,7 @@
     <Compile Include="T5-Brackets.cs" />
     <Compile Include="T5-Fish.cs" />
     <Compile Include="T8-CountFactors.cs" />
+    <Compile Include="T8-Flags.cs" />
     <Compile Include="T8-Peaks.cs" />
     <Compile Include="T8-MinPerimeterRectangle.cs" />
     <Compile Include="T7-MaxSliceSum.cs" />
