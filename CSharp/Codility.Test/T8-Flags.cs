@@ -35,14 +35,14 @@ namespace Codility.Test
             Solution s = new Solution();
             int[] A = new int[] { 1, 1, 1, 2, 1, 2, 1 };
             int result = s.solution(A);
-            Assert.AreEqual(1, result);
+            Assert.AreEqual(2, result);
         }
 
         [TestMethod]
         public void TestMethod4()
         {
             Solution s = new Solution();
-            int[] A = new int[] { 1, 2, 1, 1, 1, 1, 2, 1 };
+            int[] A = new int[] { 1, 2, 1, 1, 2, 1, 1, 2 };
             int result = s.solution(A);
             Assert.AreEqual(2, result);
         }
@@ -51,7 +51,25 @@ namespace Codility.Test
         public void TestMethod5()
         {
             Solution s = new Solution();
-            int[] A = new int[] { 1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 };
+            int[] A = new int[] { 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2};
+            int result = s.solution(A);
+            Assert.AreEqual(2, result);
+        }
+
+        [TestMethod]
+        public void TestMethod6()
+        {
+            Solution s = new Solution();
+            int[] A = new int[] { 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1 };
+            int result = s.solution(A);
+            Assert.AreEqual(4, result);
+        }
+
+        [TestMethod]
+        public void TestMethod7()
+        {
+            Solution s = new Solution();
+            int[] A = new int[] { 1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 };
             int result = s.solution(A);
             Assert.AreEqual(3, result);
         }

@@ -18,8 +18,32 @@ namespace Flags
                     peaks[i] = true;
             }
 
-            int maxFlagCount = Math.Max(peaks.Length, Convert.ToInt32(Math.Floor(Math.Sqrt(A.Length))));
-            return 0;
+            int[] nextFlag = new int[A.Length];
+            nextFlag[nextFlag.Length - 1] = -1;
+
+            for (int i = nextFlag.Length - 2; i >= 0; --i)
+            {
+                if (peaks[i])
+                    nextFlag[i] = i;
+                else
+                    nextFlag[i] = nextFlag[i + 1];
+            }
+
+            int result = 0;
+            for (int i = 1; i * (i - 1) <= A.Length; ++i)
+            {
+                int currentFlagCount = 0;
+                for (int pos = 0; pos < A.Length && nextFlag[pos] != -1; pos += i)
+                {
+                    pos = nextFlag[pos];
+                    ++currentFlagCount;
+                    if (currentFlagCount == i)
+                        break;
+                }
+                result = Math.Max(result, currentFlagCount);
+            }
+
+            return result;
         }
     }
 }
