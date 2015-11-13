@@ -52,6 +52,8 @@
     <Compile Include="5-Fish.cs" />
     <Compile Include="8-CountFactors.cs" />
     <Compile Include="8-Flags.cs" />
+    <Compile Include="10-ChocolatesByNumbers.cs" />
+    <Compile Include="9-CountNonDivisible.cs" />
     <Compile Include="9-Semiprimes.cs" />
     <Compile Include="8-Peaks.cs" />
     <Compile Include="8-MinPerimeterRectangle.cs" />
