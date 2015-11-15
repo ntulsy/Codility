@@ -20,7 +20,7 @@ namespace ChocolatesByNumbers
             return Convert.ToInt32(lcm / M);
         }
 
-        // a < b
+        // a > b
         private int getGcd(int a, int b)
         {
             if (a % b == 0)
