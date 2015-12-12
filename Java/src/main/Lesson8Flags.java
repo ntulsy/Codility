@@ -9,42 +9,80 @@ public class Lesson8Flags {
     public int solution(int[] A) {
         // write your code in Java SE 8
         ArrayList<Integer> peaks = new ArrayList<>();
-        for (int i = 1; i <= A.length - 2; i++) {
+        int n = A.length;
+        for (int i = 1; i <= n - 2; i++) {
             if (A[i] > A[i - 1] && A[i] > A[i + 1])
                 peaks.add(i);
         }
-        int num = getFlag(1,peaks.size(), peaks, A.length);
-        if (num == 1)
-            return peaks.size()==0? 0:1;
-        return num;
-    }
-    public int getFlag(int min, int max, ArrayList<Integer> peaks, int len){
-        if (max-min == 1 || max==min){
-            if(setTest(max, peaks, len))
-                return max;
-            else
-                return min;
-        }else {
-            int mid = (min+max)/2;
-            if (setTest(mid, peaks, len)) {
-                min = mid;
-            } else {
-                max = mid - 1;
+        if (peaks.size() == 0)
+            return 0;
+        int[] peak = peaks.stream().mapToInt(i -> i).toArray();
+        int max = Math.min(peak.length, (int)Math.sqrt(n)+1);
+        int i = max; int result = 1;
+        while ( i > 1){
+            if (setTest(i, peak, n)){
+                result = i;
+                break;
             }
-            return getFlag(min, max, peaks, len);
+            i--;
         }
+        return result;
     }
-
-    public boolean setTest(int num, ArrayList<Integer> peaks, int len){
+    public boolean setTest(int num, int[] peaks, int len){
         int count = 1;
-        int current = peaks.get(0)+num;
+        int current = peaks[0]+num;
 
-        for (int j=1; j<peaks.size();j++){
-            if(current<len && peaks.get(j)>=current){
-                current = peaks.get(j)+current;
+        for (int j = 1; j < peaks.length && count < num ;j++){
+            if(current < len && peaks[j] >= current){
+                current = peaks[j]+num;
                 count++;
             }
         }
         return (count==num);
+    }
+
+    public int goldenSolution(int[] A) {
+        // write your code in Java SE 8
+        boolean[] peaks = new boolean[A.length];
+        int n = A.length; int np = 0;
+        for (int i = 1; i <= n - 2; i++) {
+            if (A[i] > A[i - 1] && A[i] > A[i + 1]) {
+                peaks[i] = true;
+                np++;
+            }
+        }
+        if (np == 0)
+            return 0;
+
+        int[] next = next(A, peaks);
+        int max = Math.min(np, (int)Math.sqrt(n)+1);
+        int i = 1; int result = 0;
+        while ( i <= max){
+            int count = 0; int pos = 0;
+            while (pos < n && count < i){
+                pos = next[pos];
+                if (pos == -1)
+                    break;
+                pos = pos + i;
+                count++;
+            }
+            result = Math.max(result, count);
+            i++;
+        }
+        return result;
+    }
+
+    public int[] next(int[] A, boolean[] peaks){
+        int n = A.length;
+        int[] next = new int[n];
+        int i = n - 1; next[i] = -1; i--;
+        while (i >= 0){
+            if (peaks[i])
+                next[i] = i;
+            else
+                next[i] = next[i + 1];
+            i--;
+        }
+        return next;
     }
 }

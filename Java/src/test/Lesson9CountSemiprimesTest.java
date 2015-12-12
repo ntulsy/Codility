@@ -1,5 +1,6 @@
-package main;
+package test;
 
+import main.Lesson9CountSemiprimes;
 import org.junit.Test;
 
 import java.util.Arrays;
