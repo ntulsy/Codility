@@ -6,6 +6,7 @@ package main;
 public class GCD {
 
     // assume % take O(1) time
+    // time complexity: log(a+b)
     public int gcdByDiv(int a, int b){
         if (a % b == 0)
             return b;
@@ -14,6 +15,7 @@ public class GCD {
     }
 
     // assume % take large time (when a or b very large)
+    // time complexity: log(n), n = ab
     public int gcdByBin (int a, int b) {
         return gcdByBin(a, b, 1);
     }
