@@ -15,9 +15,11 @@ namespace Codility.Test
         public void TestMethod1()
         {
             Solution s = new Solution();
-            int[] A = { 15, 10, 3 };
-            int[] B = { 73, 30, 5 };
-            //int result = s.solution(A, B);
+            int[] A = { 4, 4, 5, 5, 1 };
+            int[] B = { 3, 2, 4, 3, 1 };
+            int[] result = s.solution(A, B);
+            int[] expected = { 5, 1, 8, 0, 1 };
+            CollectionAssert.AreEqual(expected, result);
         }
     }
 }
