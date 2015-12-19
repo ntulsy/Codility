@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="12-MinMaxDivision.cs" />
     <Compile Include="11-Ladder.cs" />
     <Compile Include="10-CommonPrimeDivisors.cs" />
     <Compile Include="2-MissingInteger.cs" />
