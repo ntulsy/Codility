@@ -51,6 +51,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="T1-FrogJmp.cs" />
+    <Compile Include="T11-Ladder.cs" />
+    <Compile Include="T10-CommonPrimeDivisors.cs" />
     <Compile Include="T2-MissingInteger.cs" />
     <Compile Include="T2-MaxCounters.cs" />
     <Compile Include="T3-MinAvgTwoSlice.cs" />
