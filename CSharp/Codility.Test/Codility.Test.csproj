@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="T1-FrogJmp.cs" />
+    <Compile Include="T13-AbsDistinct.cs" />
     <Compile Include="T12-MinMaxDivision.cs" />
     <Compile Include="T11-Ladder.cs" />
     <Compile Include="T10-CommonPrimeDivisors.cs" />
