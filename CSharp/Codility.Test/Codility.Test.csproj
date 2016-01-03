@@ -50,6 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="T0-OddOccurrencesInArray.cs" />
+    <Compile Include="T0-BinaryGap.cs" />
     <Compile Include="T1-FrogJmp.cs" />
     <Compile Include="T13-AbsDistinct.cs" />
     <Compile Include="T12-MinMaxDivision.cs" />

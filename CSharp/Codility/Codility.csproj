@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="0-OddOccurrencesInArray.cs" />
+    <Compile Include="0-BinaryGap.cs" />
     <Compile Include="13-AbsDistinct.cs" />
     <Compile Include="12-MinMaxDivision.cs" />
     <Compile Include="11-Ladder.cs" />
