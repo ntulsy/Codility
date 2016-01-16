@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="15-CountDistinctSlices.cs" />
     <Compile Include="15-CountTriangles.cs" />
     <Compile Include="2-CyclicRotation.cs" />
     <Compile Include="2-OddOccurrencesInArray.cs" />

@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="T15-CountDistinctSlices.cs" />
     <Compile Include="T15-CountTriangles.cs" />
     <Compile Include="T2-CyclicRotation.cs" />
     <Compile Include="T2-OddOccurrencesInArray.cs" />
