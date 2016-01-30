@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="T15-CountDistinctSlices.cs" />
+    <Compile Include="T17-NumberSolitaire.cs" />
     <Compile Include="T16-TieRopes.cs" />
     <Compile Include="T16-MaxNonoverlappingSegments.cs" />
     <Compile Include="T15-MinAbsSumOfTwo.cs" />

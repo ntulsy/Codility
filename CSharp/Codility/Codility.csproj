@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="15-CountDistinctSlices.cs" />
+    <Compile Include="17-NumberSolitaire.cs" />
     <Compile Include="16-TieRopes.cs" />
     <Compile Include="16-MaxNonoverlappingSegments.cs" />
     <Compile Include="15-MinAbsSumOfTwo.cs" />
