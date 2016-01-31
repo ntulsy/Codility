@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="13-FibFrog.cs" />
     <Compile Include="15-CountDistinctSlices.cs" />
     <Compile Include="99-TreeHeight.cs" />
     <Compile Include="99-StrSymmetryPoint.cs" />
