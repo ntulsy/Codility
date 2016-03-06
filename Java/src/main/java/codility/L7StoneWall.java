@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Created by Boss on 15/10/15.
  */
-public class L07StoneWall {
+public class L7StoneWall {
     public int solution(int[] H) {
         // write your code in Java SE 8
         int combination = 0;

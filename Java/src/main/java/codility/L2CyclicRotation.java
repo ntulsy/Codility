@@ -3,7 +3,7 @@ package main.java.codility;
 /**
  * Created by Boss on 19/2/16.
  */
-public class L02CyclicRotation {
+public class L2CyclicRotation {
     public int[] solution(int[] A, int K) {
         if (A.length <= 1)
             return A;

@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 16/10/15.
  */
-public class L08Dominator {
+public class L8Dominator {
     public int solution(int[] A) {
         // write your code in Java SE 8
         int value = 0, size = 0;

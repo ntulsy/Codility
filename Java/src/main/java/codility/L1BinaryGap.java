@@ -3,7 +3,7 @@ package main.java.codility;
 /**
  * Created by Boss on 19/2/16.
  */
-public class L01BinaryGap {
+public class L1BinaryGap {
     public int solution(int N) {
         StringBuilder sb = new StringBuilder();
         while (N > 0) {

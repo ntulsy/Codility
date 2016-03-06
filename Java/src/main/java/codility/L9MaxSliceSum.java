@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 17/10/15.
  */
-public class L09MaxSliceSum {
+public class L9MaxSliceSum {
     public int solution(int[] A) {
         // write your code in Java SE 8
         int max_slice = 0, max_sofar = 0;

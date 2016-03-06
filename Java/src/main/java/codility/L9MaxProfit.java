@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 19/10/15.
  */
-public class L09MaxProfit {
+public class L9MaxProfit {
     public int solution(int[] A) {
         // write your code in Java SE 8
         int profit_sofar = 0, max_profit=0;

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by Boss on 14/10/15.
  */
-public class L06Triangle {
+public class L6Triangle {
     class Solution {
         public int solution(int[] A) {
             // write your code in Java SE 8

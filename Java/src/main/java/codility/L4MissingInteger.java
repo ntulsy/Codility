@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 5/10/15.
  */
-public class L04MissingInteger {
+public class L4MissingInteger {
 //    solution to return min missing integer greater than any integer in the array
     public int solution(int[]A){
         int[] check = new int[A.length];

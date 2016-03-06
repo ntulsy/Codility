@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by Boss on 11/10/15.
  */
-public class L06MaxProductOfThree {
+public class L6MaxProductOfThree {
     class Solution {
         public int solution(int[] A) {
             // write your code in Java SE 8

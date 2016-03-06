@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by Boss on 15/10/15.
  */
-public class L06NumberOfDiscIntersections {
+public class L6NumberOfDiscIntersections {
     public int solution(int[] A) {
         // write your code in Java SE 8
 //Java8 Lambda

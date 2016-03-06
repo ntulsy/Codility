@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 5/10/15.
  */
-public class L03PermMissingElem {
+public class L3PermMissingElem {
     public int solution(int[] A){
         int[] check = new int[A.length+1];
         int i;

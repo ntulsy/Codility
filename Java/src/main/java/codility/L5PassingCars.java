@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 5/10/15.
  */
-public class L05PassingCars {
+public class L5PassingCars {
     public int solution(int[] A){
         int result = 0, i, eastCars=0;
         for (i = 0; i<A.length;i++){

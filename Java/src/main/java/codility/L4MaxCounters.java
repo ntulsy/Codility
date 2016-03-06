@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 5/10/15.
  */
-public class L04MaxCounters {
+public class L4MaxCounters {
     public int[] solution(int N,int[]A){
         int[] result = new int[N];
         int i, lastMax=0, max=0;

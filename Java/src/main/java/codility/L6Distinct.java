@@ -6,7 +6,7 @@ import java.util.HashMap;
 /**
  * Created by Boss on 14/10/15.
  */
-public class L06Distinct {
+public class L6Distinct {
     class Solution {
         public int solution(int[] A) {
             // write your code in Java SE 8

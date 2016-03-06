@@ -1,9 +1,4 @@
 package codility;
-
-<<<<<<< HEAD:Java/src/test/L1FrogJumpTest.java
-import main.L3FrogJump;
-=======
->>>>>>> 60342aaac0d527557e9afce8c0ec700ec5999272:Java/src/test/java/codility/L3FrogJumpTest.java
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

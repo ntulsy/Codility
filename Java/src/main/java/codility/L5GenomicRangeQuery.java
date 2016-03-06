@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 5/10/15.
  */
-public class L05GenomicRangeQuery {
+public class L5GenomicRangeQuery {
     public int[] solution(String S, int[] P, int[] Q) {
         int i,j,value;
         int[][] seen = new int[4][S.length()];

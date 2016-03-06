@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 16/10/15.
  */
-public class L08EquiLeader {
+public class L8EquiLeader {
     public int solution(int[] A) {
         // write your code in Java SE 8
         int size = 0, value = -1;
