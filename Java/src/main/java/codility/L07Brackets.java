@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * Created by Boss on 15/10/15.
  */
-public class L7Brackets {
+public class L07Brackets {
     public int solution(String S) {
         // write your code in Java SE 8
         Stack pending = new Stack();

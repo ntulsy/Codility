@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Created by Boss on 15/10/15.
  */
-public class L7Fish {
+public class L07Fish {
     public int solution(int[] A, int[] B) {
         // write your code in Java SE 8
         Stack fighting = new Stack();

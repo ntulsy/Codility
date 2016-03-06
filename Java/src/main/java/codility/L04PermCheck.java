@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 5/10/15.
  */
-public class L4PermCheck {
+public class L04PermCheck {
     public int solution(int[] A){
         boolean[] check = new boolean[A.length];
         int i;

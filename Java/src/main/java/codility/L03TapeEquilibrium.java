@@ -4,7 +4,7 @@ package codility;
  * Created by Boss on 4/10/15.
  */
 
-public class L3TapeEquilibrium {
+public class L03TapeEquilibrium {
     public int solution(int[] A){
         int[] sum = new int[A.length];
         sum[0]= A[0];

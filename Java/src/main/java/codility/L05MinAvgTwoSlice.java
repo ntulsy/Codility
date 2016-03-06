@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 5/10/15.
  */
-public class L5MinAvgTwoSlice {
+public class L05MinAvgTwoSlice {
     public int solution(int[] A){
         int min_index = 0;
         double min_value = Integer.MAX_VALUE;

@@ -3,7 +3,7 @@ package codility;
 /**
  * Created by Boss on 5/10/15.
  */
-public class L5CountDiv {
+public class L05CountDiv {
     public int solution(int A, int B, int K){
         if(A % K == 0)
             return (B-A)/K +1;

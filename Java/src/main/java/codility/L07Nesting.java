@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Created by Boss on 15/10/15.
  */
-public class L7Nesting {
+public class L07Nesting {
     public int solution(String S) {
         // write your code in Java SE 8
         char[] string = S.toCharArray();
