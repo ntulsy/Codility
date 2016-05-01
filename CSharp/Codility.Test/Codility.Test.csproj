@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="T13-FibFrog.cs" />
+    <Compile Include="T14-NailingPlanks.cs" />
     <Compile Include="T15-CountDistinctSlices.cs" />
     <Compile Include="T99-TreeHeight.cs" />
     <Compile Include="T99-StrSymmetryPoint.cs" />
