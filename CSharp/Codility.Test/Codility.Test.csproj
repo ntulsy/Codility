@@ -53,6 +53,7 @@
     <Compile Include="T13-FibFrog.cs" />
     <Compile Include="T14-NailingPlanks.cs" />
     <Compile Include="T15-CountDistinctSlices.cs" />
+    <Compile Include="T90-RectangleBuilderGreaterArea.cs" />
     <Compile Include="T90-DwarfsRafting.cs" />
     <Compile Include="T99-ArrayInversionCount.cs" />
     <Compile Include="T99-TreeHeight.cs" />

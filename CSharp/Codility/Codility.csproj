@@ -45,6 +45,7 @@
     <Compile Include="13-FibFrog.cs" />
     <Compile Include="14-NailingPlanks.cs" />
     <Compile Include="15-CountDistinctSlices.cs" />
+    <Compile Include="90-RectangleBuilderGreaterArea.cs" />
     <Compile Include="90-DwarfsRafting.cs" />
     <Compile Include="99-ArrayInversionCount.cs" />
     <Compile Include="99-TreeHeight.cs" />
