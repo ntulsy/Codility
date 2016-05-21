@@ -56,6 +56,7 @@
     <Compile Include="T90-RectangleBuilderGreaterArea.cs" />
     <Compile Include="T90-DwarfsRafting.cs" />
     <Compile Include="T99-ArrayInversionCount.cs" />
+    <Compile Include="T99-PolygonConcavityIndex.cs" />
     <Compile Include="T99-TreeHeight.cs" />
     <Compile Include="T99-StrSymmetryPoint.cs" />
     <Compile Include="T17-NumberSolitaire.cs" />

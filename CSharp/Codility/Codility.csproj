@@ -48,6 +48,7 @@
     <Compile Include="90-RectangleBuilderGreaterArea.cs" />
     <Compile Include="90-DwarfsRafting.cs" />
     <Compile Include="99-ArrayInversionCount.cs" />
+    <Compile Include="99-PolygonConcavityIndex.cs" />
     <Compile Include="99-TreeHeight.cs" />
     <Compile Include="99-StrSymmetryPoint.cs" />
     <Compile Include="17-NumberSolitaire.cs" />
